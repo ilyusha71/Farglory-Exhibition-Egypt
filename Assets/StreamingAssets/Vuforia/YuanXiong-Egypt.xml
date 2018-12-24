@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="AG09" size="512.000000 519.228210" />
+    <ImageTarget name="AG02" size="512.000000 512.000000" />
+    <ImageTarget name="AG24" size="512.000000 520.513062" />
+    <ImageTarget name="AG27" size="512.000000 516.818848" />
+    <ImageTarget name="AG28" size="512.000000 520.513062" />
+    <ImageTarget name="AG01" size="512.000000 512.000000" />
+    <ImageTarget name="AG26" size="512.000000 516.818848" />
+    <ImageTarget name="AG25" size="512.000000 516.818848" />
+    <ImageTarget name="AG23" size="512.000000 515.614136" />
+    <ImageTarget name="AG22" size="512.000000 515.614136" />
+    <ImageTarget name="AG21" size="512.000000 515.614136" />
+    <ImageTarget name="AG20" size="512.000000 504.771759" />
+    <ImageTarget name="AG19" size="512.000000 504.771759" />
+    <ImageTarget name="AG18" size="512.000000 504.771759" />
+    <ImageTarget name="AG17" size="512.000000 504.771759" />
+    <ImageTarget name="AG16" size="512.000000 509.590576" />
+    <ImageTarget name="AG15" size="512.000000 509.590576" />
+    <ImageTarget name="AG13" size="512.000000 509.590576" />
+    <ImageTarget name="AG12" size="512.000000 525.409546" />
+    <ImageTarget name="AG11" size="512.000000 508.436188" />
+    <ImageTarget name="AG10" size="512.000000 512.000000" />
+    <ImageTarget name="AG08" size="512.000000 518.095215" />
+    <ImageTarget name="AG07" size="512.000000 512.000000" />
+    <ImageTarget name="AG06" size="512.000000 508.411224" />
+    <ImageTarget name="AG05" size="512.000000 515.614136" />
+    <ImageTarget name="AG04" size="512.000000 512.000000" />
+    <ImageTarget name="AG03" size="512.000000 512.000000" />
+  </Tracking>
+</QCARConfig>

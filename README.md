@@ -2,6 +2,8 @@
 人文遠雄博物館 -穿越時空 密室歷險 - 埃及金字塔密室App
 ![](https://raw.githubusercontent.com/ilyusha71/Farglory-Exhibition-Egypt/master/Acts_20181228175358246.jpg)  
 [點我下載](https://github.com/ilyusha71/Farglory-Exhibition-Egypt/raw/master/Eygpt20190108a.apk "埃及金字塔密室App")  
+# 給宸哥遊戲截圖
+[點我下載](https://github.com/ilyusha71/Farglory-Exhibition-Egypt/Testing Picture)
 ----------------
 # 作弊方法
 在三個任務目標按鈕的中間有四個隱藏按鈕，以下用藍色方塊標示該按鈕的位置<br>

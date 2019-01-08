@@ -3428,7 +3428,6 @@ GameObject:
   - component: {fileID: 313565832}
   - component: {fileID: 313565835}
   - component: {fileID: 313565834}
-  - component: {fileID: 313565833}
   m_Layer: 5
   m_Name: Anim - 2
   m_TagString: Untagged
@@ -3454,24 +3453,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 512, y: 512}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &313565833
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 313565831}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c097e2e05c8caca4f9b8be1b005d398b, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &313565834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3491,7 +3472,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300014, guid: 50011abe2d9f4cd4dba58f02d3d315e1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

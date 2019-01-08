@@ -21,6 +21,11 @@ public class GameManager : MonoBehaviour
     private TextMeshProUGUI[] textProgress;
     private int[] valueProgress = new int[3];
 
+    [Header("Cheat")]
+    public Transform cheat;
+    private Button[] btnCheat;
+    private int countCheat;
+    private int valueCheat;
 
     [Header("Tips")]
     public Button btnTips;
@@ -35,6 +40,8 @@ public class GameManager : MonoBehaviour
     {
         targetButton = target.GetComponentsInChildren<Button>();
         btnMission = mission.GetComponentsInChildren<Button>();
+        btnCheat = cheat.GetComponentsInChildren<Button>();
+        countCheat = btnCheat.Length;
         //imageTips = btnTips.GetComponent<Image>();
 
         textProgress = new TextMeshProUGUI[3];
@@ -64,6 +71,8 @@ public class GameManager : MonoBehaviour
                         sfx.clip = bgm[2];
                         sfx.Play();
                     }
+                    else if (valueProgress[0] > 9)
+                        textProgress[0].text = "<size=37>↓提示</size>";
                 }
                 else if (index < 18)
                 {
@@ -75,6 +84,8 @@ public class GameManager : MonoBehaviour
                         sfx.clip = bgm[1];
                         sfx.Play();
                     }
+                    else if (valueProgress[1] > 9)
+                        textProgress[1].text = "<size=37>↓提示</size>";
                 }
                 else if (index < 27)
                 {
@@ -86,6 +97,8 @@ public class GameManager : MonoBehaviour
                         sfx.clip = bgm[1];
                         sfx.Play();
                     }
+                    else if (valueProgress[2] > 9)
+                        textProgress[2].text = "<size=37>↓提示</size>";
                 }
                 sfx.PlayOneShot(bgm[0], 3.0f);
             });
@@ -109,6 +122,42 @@ public class GameManager : MonoBehaviour
                 animationTips[0].SetActive(false);
                 animationTips[1].SetActive(false);
                 animationTips[2].SetActive(false);
+
+            });
+        }
+
+        for (int i = 0; i < countCheat; i++)
+        {
+            int index = i;
+            btnCheat[index].onClick.AddListener(() =>
+            {
+                valueCheat *= 10;
+                valueCheat += index + 1;
+                valueCheat %= 10000;
+                if (valueCheat == 1243)
+                {
+                    valueProgress[0] = 9;
+                    textProgress[0].text = "<size=37>↓提示</size>";
+                    btnMission[0].interactable = true;
+                    sfx.clip = bgm[2];
+                    sfx.Play();
+                }
+                else if (valueCheat == 2143)
+                {
+                    valueProgress[1] = 9;
+                    textProgress[1].text = "<size=37>↓提示</size>";
+                    btnMission[1].interactable = true;
+                    sfx.clip = bgm[1];
+                    sfx.Play();
+                }
+                else if (valueCheat == 3421)
+                {
+                    valueProgress[2] = 9;
+                    textProgress[2].text = "<size=37>↓提示</size>";
+                    btnMission[2].interactable = true;
+                    sfx.clip = bgm[2];
+                    sfx.Play();
+                }
 
             });
         }
